@@ -1,0 +1,34 @@
+// Sabon Font
+@include font-face('Sabon', 'assets/fonts/SabonLTPro/SabonLTPro-Roman', normal, normal, eot svg ttf);
+@include font-face('Sabon', 'assets/fonts/SabonLTPro/SabonLTPro-Italic', normal, italic, eot svg ttf);
+@include font-face("Sabon", "assets/fonts/SabonLTPro/SabonLTPro-Bold", bold, normal, eot svg ttf);
+@include font-face('Sabon', 'assets/fonts/SabonLTPro/SabonLTPro-BoldItalic', bold, italic, eot svg ttf);
+
+// Yara Max Font
+@include font-face('YaraMax', 'assets/fonts/YaraMaxLF/YaraMaxLF-Light', 100, normal, eot svg ttf);
+@include font-face('YaraMax', 'assets/fonts/YaraMaxLF/YaraMaxLF-LightItalic', 100, italic, eot svg ttf);
+@include font-face('YaraMax', 'assets/fonts/YaraMaxLF/YaraMaxLF-Regular', 200, normal, eot svg ttf);
+@include font-face('YaraMax', 'assets/fonts/YaraMaxLF/YaraMaxLF-RegularItalic', 200, italic, eot svg ttf);
+@include font-face('YaraMax', 'assets/fonts/YaraMaxLF/YaraMaxLF-Book', 300, normal, eot svg ttf);
+@include font-face('YaraMax', 'assets/fonts/YaraMaxLF/YaraMaxLF-BookItalic', 300, italic, eot svg ttf);
+@include font-face('YaraMax', 'assets/fonts/YaraMaxLF/YaraMaxLF-SemiBold', 400, normal, eot svg ttf);
+@include font-face('YaraMax', 'assets/fonts/YaraMaxLF/YaraMaxLF-SemiBoldItalic', 400, italic, eot svg ttf);
+@include font-face('YaraMax', 'assets/fonts/YaraMaxLF/YaraMaxLF-Bold', 500, normal, eot svg ttf);
+@include font-face('YaraMax', 'assets/fonts/YaraMaxLF/YaraMaxLF-BoldItalic', 500, italic, eot svg ttf);
+@include font-face('YaraMax', 'assets/fonts/YaraMaxLF/YaraMaxLF-ExtraBold', 600, normal, eot svg ttf);
+@include font-face('YaraMax', 'assets/fonts/YaraMaxLF/YaraMaxLF-ExtraBoldItalic', 600, italic, eot svg ttf);
+
+// Muli
+@import url('https://fonts.googleapis.com/css?family=Muli:300,400,600,700,800,900');
+
+// Open Sans
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+
+// Montserrat
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900');
+
+$Sabon: 'Sabon';
+$YaraMax: 'YaraMax';
+$Muli: 'Muli', sans-serif;
+$OpenSans: 'Open Sans', sans-serif;
+$Montserrat: 'Montserrat', sans-serif;

@@ -1,0 +1,14 @@
+.splash {
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+    top: 50%;
+    left: 50%;
+    h1 {
+        width: 100%;
+        float: left;
+        color: white;
+        font-weight: 300;
+        font-size: 28px;
+        text-align: center;
+    }
+}
