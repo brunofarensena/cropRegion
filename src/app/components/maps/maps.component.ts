@@ -1,14 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
-import { HttpClient, HttpParams, HttpHeaders } from '@angular/common/http';
-
-interface Marker {
-  lat: number;
-  lng: number;
-  label?: string;
-  description: string;
-  draggable: boolean;
-}
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 
 interface Farm {
   id: number;
@@ -41,17 +33,10 @@ export class MapsComponent implements OnInit {
   lat = -21.4689409;
   lng = -44.1022293;
 
-
-
-
   constructor(private httpClient: HttpClient) {}
 
-  clickedMarker(name: string, crops: string) {
-    console.log(`clicked the marker: ${name || crops}`);
-  }
-
-  getfarms() {
-
+  clickedMarker(name: string) {
+    console.log(`clicked the marker: ${name}`);
   }
 
   ngOnInit() {

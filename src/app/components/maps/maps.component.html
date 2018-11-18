@@ -1,16 +1,10 @@
 <app-header></app-header>
 <div>
-    <!-- <button (click)="getfarms()">Get Posts</button>
 
-     <div *ngFor="let farm of farms | async; let i = index">
-
-      {{ farm.name | json }}
-
-    </div> -->
   <agm-map [latitude]="lat" [longitude]="lng" [zoom]="7" [disableDefaultUI]="false" [zoomControl]="false">
 
-    <agm-marker *ngFor="let farm of farms | async; let i = index" (markerClick)="clickedMarker(farm.name, i)" [latitude]="farm.latitude"
-      [longitude]="farm.longitude" [label]="farm.id">
+    <agm-marker *ngFor="let farm of farms | async " (markerClick)="clickedMarker(farm.name)" [latitude]="farm.latitude"
+      [longitude]="farm.longitude">
 
       <agm-info-window>
         <strong>{{farm.crops[0].name}}</strong>
