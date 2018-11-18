@@ -6,6 +6,7 @@ import { AppRoutingModule } from './routing/app-routing.module';
 import { MapsComponent } from './components/maps/maps.component';
 import { AgmCoreModule } from '@agm/core';
 import { HeaderComponent } from './components/header/header.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { HeaderComponent } from './components/header/header.component';
     BrowserModule,
     AppRoutingModule,
     RouterModule,
+    HttpClientModule,
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyCfcWpfleGUAD_OmbIxQ-qgUAakln2oGYA'
     })
