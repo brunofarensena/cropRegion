@@ -42,7 +42,7 @@ export class MapsComponent implements OnInit {
   ngOnInit() {
     const headers = new HttpHeaders().set(
       'X-Gravitee-Api-Key',
-      '57063f6d-555f-49f1-ba35-70573a69c941'
+      'key'
     );
 
     this.farms = this.httpClient.get(this.ROOT_URL + '/farm', { headers });
